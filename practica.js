@@ -1,8 +1,8 @@
 function ordenarNumeros() {
   // ingresa numeros aqui
-  let num1 = parseFloat(prompt("Ingresa el primer numero:"));
-  let num2 = parseFloat(prompt("Ingresa el segundo numero:"));
-  let num3 = parseFloat(prompt("Ingresa el tercer numero:"));
+  let num1 = prompt("Ingresa el primer numero:");
+  let num2 = prompt("Ingresa el segundo numero:");
+  let num3 = prompt("Ingresa el tercer numero:");
 
   if (num1 >= num2 && num1 >= num3) {
     mayor = num1;
